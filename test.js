@@ -19,8 +19,8 @@ function gess() {
             alert("Value Is To High ! TRY AGAIN")
         }
         else {
-            document.getElementById("demo").textContent = `You Won 🎉🎉✨🎊 The Number is   ${val}`
-
+             attems++;
+            document.getElementById("demo").innerHTML = `You Won 🎉🎉✨🎊 The Number is   ${val} <br> <p style = "color: white">You Attend ${attems} Times</p>`
         }
     }
 }
