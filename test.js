@@ -26,10 +26,11 @@ function gess() {
 }
 
 function game() {
-   location.reload(val)
+    location.reload(val)
 }
 
-function reset(){
+function reset() {
     val = document.getElementById("val");
     val.value = ""
+    document.getElementById("demo").innerHTML = ""
 }
