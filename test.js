@@ -30,7 +30,7 @@ function game() {
 }
 
 function reset() {
+    document.getElementById("demo").innerHTML = ""
     val = document.getElementById("val");
     val.value = ""
-    document.getElementById("demo").innerHTML = ""
 }
