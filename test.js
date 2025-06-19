@@ -5,7 +5,6 @@ let val;
 // alert(`Enter Number ${min} to ${max}`)
 function gess() {
     val = Number(document.getElementById("val").value);
-    console.log(val)
     if (isNaN(val)) {
         alert("Enter a valid Number");
     }
@@ -26,7 +25,11 @@ function gess() {
     }
 }
 
-function reset() {
+function game() {
+   location.reload(val)
+}
+
+function reset(){
     val = document.getElementById("val");
     val.value = ""
 }
